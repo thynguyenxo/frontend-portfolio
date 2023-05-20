@@ -15,14 +15,15 @@ Users should be able to:
 
 ### Screenshot
 ##### Mobile-first
-![](https://github.com/thynguyenxo/frontend-portfolio/blob/main/price-grid/images/mobile-screenshot.png)
+![mobile-screenshot](./images/mobile-screenshot.png)
 
 
 ##### Desktop-first
-![](https://github.com/thynguyenxo/frontend-portfolio/blob/main/price-grid/images/desktop-screenshot.png)
+![desktop-screenshot](./images/desktop-screenshot.png)
 
 
-![](https://github.com/thynguyenxo/frontend-portfolio/blob/main/price-grid/images/desktop-screenrecording.mov)
+![desktop-recording](./images/desktop-screenrecording.gif)
+
 
 ### Links
 
