@@ -15,6 +15,9 @@ Users should be able to:
 ![desktop-screenshot](./images/desktop-screenshot.jpg)
 
 
+https://github.com/thynguyenxo/frontend-portfolio/assets/73088746/c26f1df9-022d-49bc-9ee7-107d948807aa
+
+
 
 ### Links
 
