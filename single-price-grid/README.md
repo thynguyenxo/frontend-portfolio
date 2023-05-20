@@ -17,7 +17,7 @@ Users should be able to:
 
 ##### Screen-recording 
 I added animation when hovering over the Signup button and a popup message when clicking on it. 
-![](images/desktop-screenrecording.gif)
+
 
 ### Links
 - Solution URL: [Single Price Grid | GitHub](https://github.com/thynguyenxo/frontend-portfolio/tree/main/price-grid)
