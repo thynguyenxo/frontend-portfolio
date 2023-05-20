@@ -1,12 +1,5 @@
-# Single price grid component solution - Frontend Mentor
+# Single price grid component - A Frontend Mentor challenge
 
- 
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-
-
-### The challenge
 In this challenge, I built out the pricing component to the designs provided on [Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc).
 
 Users should be able to:
@@ -15,14 +8,12 @@ Users should be able to:
 
 ### Screenshot
 ##### Mobile-first
-![mobile-screenshot](./images/mobile-screenshot.png)
+![mobile-screenshot](./images/mobile-screenshot.jpg)
 
 
 ##### Desktop-first
-![desktop-screenshot](./images/desktop-screenshot.png)
+![desktop-screenshot](./images/desktop-screenshot.jpg)
 
-
-![desktop-recording](./images/desktop-screenrecording.gif)
 
 
 ### Links
