@@ -22,6 +22,6 @@ https://github.com/thynguyenxo/frontend-portfolio/assets/73088746/effcc088-d849-
 
 
 ### Links
-- Solution URL: [Single Price Grid | GitHub](https://github.com/thynguyenxo/frontend-portfolio/tree/main/price-grid)
+- Solution URL: [Single Price Grid | GitHub](https://github.com/thynguyenxo/frontend-portfolio/tree/main/single-price-grid)
 - Live Site URL: [Single Price Grid](https://thynguyenxo.github.io/frontend-portfolio/single-price-grid/index.html)
 
