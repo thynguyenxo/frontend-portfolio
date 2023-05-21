@@ -14,7 +14,9 @@ html {
 body {
   display: grid;
   place-items: center;
+  min-height: 100vh;
 }
+
 
 .main {
   background-color: hsl(0, 0%, 100%);
