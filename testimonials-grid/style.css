@@ -13,7 +13,9 @@ html {
 }
 
 body {
-  margin: 5%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 img {
@@ -144,8 +146,6 @@ p {
 @media (min-width: 576px) {
   .wrapper {
     max-width: 70%;
-    margin: 0 auto;
-
   }
 
   .wrapper,
@@ -153,6 +153,7 @@ p {
   .top,
   .bottom {
     display: flex;
+
   }
 
   .column-left {
