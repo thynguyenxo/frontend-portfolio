@@ -42,7 +42,7 @@ p {
   color: hsl(0, 0%, 100%, 0.5);
   display: block;
   font-weight: 300;
-  margin-top: -16px;
+  margin-top: -15px;
   position: relative;
   z-index: 1;
 }
@@ -61,6 +61,7 @@ p {
 .title-white-bg {
   color: hsl(217, 19%, 35%, 0.5);
   margin-top: -15px;
+  font-weight: 300;
 }
 
 .quote-white-bg {
@@ -71,6 +72,7 @@ p {
 
 .white-bg {
   color: hsl(217, 19%, 35%, 0.7);
+
 }
 
 
@@ -175,4 +177,5 @@ p {
   #bottom-right-column-container {
     flex-basis: 25%;
   }
+
 }
