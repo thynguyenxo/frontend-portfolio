@@ -1,0 +1,161 @@
+html {
+  background: hsl(225, 100%, 94%);
+  background-image: url('./images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  place-content: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.wrapper {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 1em;
+}
+
+.text-container,
+.plan-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em
+}
+
+.text-container,
+.subscription-container {
+  flex-direction: column;
+}
+
+.text-container h1,
+.plan,
+.btn-payment,
+.btn-cancel {
+  font-weight: 900;
+}
+
+.text-container h1,
+.plan,
+.btn-cancel {
+  color: hsl(223, 47%, 23%);
+}
+
+.text-container h1 {
+  font-size: 1.5em;
+}
+
+.text-container p,
+.subscription {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+
+}
+
+.text-container p {
+  line-height: 1.75;
+  text-align: center;
+  margin: 0 1.5em 0.5em;
+}
+
+.plan-container {
+  background: hsl(225, 100%, 94%, 0.3);
+  border-radius: 10px;
+  font-size: 0.9em;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.subscription-container {
+  display: flex;
+  padding: 0 3em 0 1.5em;
+}
+
+.plan-container a {
+  color: hsl(245, 75%, 52%);
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.btn-payment,
+.btn-cancel {
+  border: none;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 0.9em;
+  padding: 1.2em;
+  width: 90%;
+}
+
+.btn-payment {
+  background: hsl(245, 75%, 52%);
+  box-shadow: -6px 30px 45px 5px rgba(56, 41, 224, 0.19);
+  -webkit-box-shadow: -6px 30px 45px 5px rgba(56, 41, 224, 0.19);
+  -moz-box-shadow: -6px 30px 45px 5px rgba(56, 41, 224, 0.19);
+  border-radius: 10px;
+  color: hsl(225, 100%, 98%);
+  margin: 1em;
+}
+
+.plan-container a:hover,
+.btn-payment:hover,
+.btn-cancel:hover {
+  cursor: pointer;
+}
+
+.plan-container a:hover,
+.btn-payment:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.btn-cancel {
+  background: none;
+  opacity: 0.6;
+}
+
+.btn-cancel:hover {
+  opacity: 1;
+}
+
+@media (min-width: 570px) {
+  .wrapper {
+    width: 90vw;
+    height: auto;
+  }
+
+  .plan-container {
+    width: 90%;
+    padding: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    background-image: url('./images/pattern-background-desktop.svg');
+
+  }
+
+  .wrapper {
+    width: 30vw;
+    height: auto;
+  }
+}
