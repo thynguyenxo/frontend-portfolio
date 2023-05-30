@@ -1,0 +1,145 @@
+body,
+html {
+  height: 100%;
+  margin: 0
+}
+
+html {
+  background: #0d192b;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px
+}
+
+body {
+  display: grid;
+  place-content: center
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit
+}
+
+a {
+  color: #fff;
+  text-decoration: none
+}
+
+.amount span,
+a:hover {
+  color: #00fff7
+}
+
+.time span,
+p {
+  color: #8bacda;
+  font-size: .85em;
+  font-weight: 300;
+  opacity: .8
+}
+
+.wrapper {
+  background: #14253d;
+  border-radius: 20px;
+  margin: 1.5em;
+  height: 600px;
+  width: 350px
+}
+
+.img {
+  display: inline-block;
+  position: relative;
+  padding: 1.5em 1.5em 1em
+}
+
+.img img {
+  border-radius: 10px;
+  display: block;
+  width: 100%
+}
+
+.overlay {
+  background: hsl(178, 100%, 50%, .5);
+  position: absolute;
+  opacity: 0;
+  top: 1.5em;
+  left: 1.5em;
+  transition: opacity .3s ease;
+  width: calc(100% - 3em);
+  height: calc(100% - 2.5em);
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.img:hover .overlay {
+  cursor: pointer;
+  opacity: 1
+}
+
+.overlay img {
+  width: 45px;
+  opacity: 1
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5em
+}
+
+.detail .title {
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: .03em
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 50%
+}
+
+.amount,
+.creator,
+.time {
+  display: flex;
+  align-items: center
+}
+
+.amount span,
+.time span {
+  padding: .5em
+}
+
+.amount span {
+  font-size: .85em;
+  font-weight: 600
+}
+
+.creator {
+  padding: 1.5em;
+  position: relative
+}
+
+.creator::before {
+  border-top: 1px solid #2f415b;
+  content: "";
+  position: absolute;
+  top: .7em;
+  width: 85%;
+  height: 1px
+}
+
+.creator .avatar {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px
+}
+
+.creator p {
+  padding: 0 1em
+}
