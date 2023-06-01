@@ -87,7 +87,7 @@ p {
 .detail {
   display: flex;
   flex-direction: column;
-  padding: 0 1.5em
+  padding: 0 1.5em;
 }
 
 .detail .title {
