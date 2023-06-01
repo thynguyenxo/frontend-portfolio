@@ -1,0 +1,138 @@
+html {
+  background: #fafafa;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit
+}
+
+h1 {
+  color: #4c4e61;
+  font-size: 1.3em;
+  font-weight: 600
+}
+
+hgroup {
+  font-size: .8em
+}
+
+p {
+  color: #a3a5ae
+}
+
+img {
+  position: absolute;
+  float: right;
+  bottom: 1.5em;
+  right: 2em;
+  width: 55px
+}
+
+.transparent-c {
+  margin: 1.5em;
+  text-align: center
+}
+
+.calculator-c,
+.karma-c,
+.supervisor-c,
+.teambuilder-c {
+  border-radius: 7px;
+  box-shadow: rgba(50, 50, 93, .2)0 13px 27px -5px, rgba(0, 0, 0, .2)0 8px 16px -8px;
+  margin: 1.5em 1em;
+  padding: 1em 2em;
+  position: relative;
+  height: 220px
+}
+
+.supervisor-c {
+  border-top: 4px solid #45d3d3
+}
+
+.teambuilder-c {
+  border-top: 4px solid #ea5353
+}
+
+.karma-c {
+  border-top: 4px solid #fcaf4a
+}
+
+.calculator-c {
+  border-top: 4px solid #549ef2
+}
+
+.bold-header,
+.thin-header {
+  font-size: 2em;
+  margin: 0
+}
+
+.thin-header {
+  font-weight: 200
+}
+
+.header-text {
+  padding: 0 1em
+}
+
+.description {
+  font-size: .87em
+}
+
+@media (min-width:850px) {
+
+  .grid,
+  body {
+    display: grid
+  }
+
+  body {
+    place-content: center
+  }
+
+  hgroup {
+    font-size: 1.2em
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 80vw
+  }
+
+  .transparent-c {
+    padding-bottom: 0
+  }
+
+  .supervisor-c {
+    grid-area: 2/1/4/2
+  }
+
+  .teambuilder-c {
+    grid-area: 1/2/3/3
+  }
+
+  .karma-c {
+    grid-area: 3/2/5/3;
+    margin-top: .5em
+  }
+
+  .calculator-c {
+    grid-area: 2/3/4/4
+  }
+
+  .transparent-c span {
+    display: block
+  }
+}
