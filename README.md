@@ -1,3 +1,2 @@
-# Hello there!
-I use this repository to store my solutions to all frontend challenges that I have worked on. This repo is a work in progress as I'm working through different frontend projects.
-
+# Introduction
+This repository contains mostly static webpages that I built without or with minimal JavaScript. My main focus here is to improve my HTML and CSS skills through the projects I've completed here. This repository is a work in progress as I'm working through different front-end projects.
