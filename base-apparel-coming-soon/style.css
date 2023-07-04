@@ -144,7 +144,8 @@ p, .h1-top,
   }
 
   .logo {
-    padding: 2em 0
+    padding: 2em 0;
+    margin: 1em 0 2em
   }
 
   .main-img {
@@ -155,6 +156,11 @@ p, .h1-top,
   .h1-bottom, .content p {
     text-align: left;
     margin-left: 0;
+  }
+
+  .h1-top,
+  .h1-bottom {
+    font-size: 3.5em;
   }
 
   .content {
@@ -190,5 +196,11 @@ p, .h1-top,
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 40vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .left {
+    margin: 1em 23em;
   }
 }
