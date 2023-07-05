@@ -111,7 +111,7 @@ p {
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: 12.24em;
+  top: 25%;
   visibility: hidden;
 
 }
@@ -143,5 +143,9 @@ p {
 @media (min-width: 700px) {
   main {
     width: 350px;
+  }
+
+  .thankyou-card {
+    top: 12.24em;
   }
 }
