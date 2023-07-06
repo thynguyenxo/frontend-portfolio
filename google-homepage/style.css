@@ -1,6 +1,6 @@
-/* BASIC ELEMENTS */
 html {
   box-sizing: border-box;
+  font-size: 1rem;
 }
 
 *,
@@ -12,84 +12,120 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
+  margin: 0
 }
 
 ul {
   list-style-type: none;
-  color: grey;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 li a {
-  font-size: 0.875em;
+  color: grey;
+  font-size: 0.80rem;
   text-decoration: none;
-  color: black;
-}
-
-.navbar {
-  background-color: rgba(242, 242, 242, 1);
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5em 1em;
-}
-
-.logo {
-  width: 50%;
-}
-
-
-.search-icon {}
-
-.searchBar {
-  border: 1px solid #80808080;
-  border-radius: 15px;
-  height: 40px;
-  width: 35%;
-  padding-left: 40px;
-}
-
-.searchBar:hover {
-  /* box-shadow: 1px 1px 3px #80808080; */
-}
-
-/* BUTTONS */
-.buttons {}
-
-.btn {
-  background-color: rgba(248, 249, 250, 1);
-  margin: 0 3px;
-  border: none;
-  text-align: center;
-  font-size: 14px;
-  padding: 5px 25px;
 }
 
 footer {
   background-color: rgba(242, 242, 242, 1);
   color: grey;
-  list-style-type: none;
-  font-size: 14px;
-  margin: 0;
   position: fixed;
   bottom: 0;
   left: 0;
-  text-decoration: none;
+  width: 100%;
+}
+
+.navbar {
+  background-color: rgba(242, 242, 242, 1);
+  padding: 0.5em
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5em 1em;
+}
+
+.logo {
+  width: 50%;
+  margin: auto
+}
+
+.searchBar {
+  border: 1px solid #80808080;
+  border-radius: 20px;
+  height: 2rem;
+  width: 100%;
+  padding: 0 3rem
+}
+
+.search-icon {
+  opacity: 0.4;
+  position: relative;
+  top: 2.1rem;
+  left: 1rem
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 2rem
+}
+
+.btn {
+  background-color: rgba(248, 249, 250, 1);
+  border: none;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  padding: 0.5rem 1.25rem;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 .links {
   display: flex;
-  gap: 1em
+  gap: 0.5em;
 }
 
+.links li {
+  margin-left: 0
+}
 
 @media (min-width: 750px) {
+  li a {
+    font-size: 0.85rem;
+  }
+
+  .navbar {
+    padding: 0.1em
+  }
+
+  .navbar-list {
+    justify-content: center;
+    gap: 5em;
+  }
+
   .logo {
-    width: 30%
+    width: 15%
+  }
+
+  .container {
+    align-items: center;
+    padding: 12em 2em
+  }
+
+  .links {
+    justify-content: center;
+    gap: 3rem
   }
 }
