@@ -1,0 +1,55 @@
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+h1 {
+  color: var(--dark-magenta);
+  font-size: 2.5rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 16px;
+}
+
+.subhero {
+  color: var(--grayish-magenta);
+}
+
+.subhero,
+.review__text {
+  line-height: 1.4;
+}
+
+.rating__text {
+  color: var(--dark-magenta);
+}
+
+.rating__text,
+.user-info__name {
+  font-weight: 700;
+}
+
+.user-info__name,
+.review__text {
+  color: var(--white);
+}
+
+
+.user-info__status {
+  color: var(--soft-pink);
+}
