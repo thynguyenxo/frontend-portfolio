@@ -7,3 +7,12 @@ body {
     background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
   }
 }
+
+.user-info {
+  display: flex;
+  gap: 1.5rem
+}
+
+.user-info__name {
+  display: block;
+}
