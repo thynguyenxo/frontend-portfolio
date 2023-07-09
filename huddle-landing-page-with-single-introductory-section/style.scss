@@ -20,12 +20,12 @@ html {
 body {
   background: var(--violet);
   background-image: url(./images/bg-mobile.svg);
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 3rem 2rem;
 
   @media (min-width: 1200px) {
     background-image: url(./images/bg-desktop.svg);
-    background-size: cover;
     margin: 3rem 4rem;
   }
 }
